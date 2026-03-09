@@ -5,10 +5,17 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "node src/index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cms", "headless", "api"],
+  "keywords": [
+    "cms",
+    "headless",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
